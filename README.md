@@ -1,6 +1,5 @@
 # ZK-OP Smart Contract on Scroll
 
-
 ## Initial setup
 
 1.  Initialize current project with npm
@@ -28,7 +27,9 @@
     ```shell
     npx hardhat check
     ```
+
     Add the following to hardhat.config.ts
+
     ```
     import "@nomiclabs/hardhat-solhint";
     ```
@@ -51,4 +52,13 @@
         dotenv.config({ path: envFile, override: true }); // Load environment variables from env file
     }
     dotEnvUtil();
+    ```
+
+7.  Update hardhat.config.ts and install
+
+-   Installation and add to hardhat.config.ts
+
+    ```shell
+    npm install -D hardhat-deploy
+    npm install --save-dev @nomicfoundation/hardhat-ethers ethers hardhat-deploy hardhat-deploy-ethers
     ```
