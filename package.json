@@ -1,0 +1,24 @@
+{
+  "name": "zk-op",
+  "version": "1.0.0",
+  "description": "zero knowledge anonymous polling application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zero",
+    "knowledge",
+    "proof",
+    "zkp",
+    "scroll",
+    "ethereum"
+  ],
+  "author": "Nitesh Agarwal",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomiclabs/hardhat-solhint": "^3.0.1",
+    "dotenv": "^16.4.4",
+    "hardhat": "^2.20.1"
+  }
+}
