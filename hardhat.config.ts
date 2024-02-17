@@ -33,19 +33,19 @@ const config: HardhatUserConfig = {
             accounts: [process.env.SEPOLIA_PRIVATE_KEY ?? ""],
         },
         scrollSepolia: {
-            url: process.env.SEPOLIA_RPC_URL,
-            chainId: 11155111,
-            accounts: [process.env.SEPOLIA_PRIVATE_KEY ?? ""],
-        },
-        scroll: {
-            url: process.env.SEPOLIA_RPC_URL,
-            chainId: 11155111,
-            accounts: [process.env.SEPOLIA_PRIVATE_KEY ?? ""],
+            url: process.env.SCROLL_SEPOLIA_RPC_URL,
+            chainId: 534351,
+            accounts: [process.env.SCROLL_SEPOLIA_PRIVATE_KEY ?? ""],
         },
         ethereum: {
             url: process.env.SEPOLIA_RPC_URL,
-            chainId: 11155111,
-            accounts: [process.env.SEPOLIA_PRIVATE_KEY ?? ""],
+            chainId: 1,
+            accounts: [process.env.ETHEREUM_MAINNET_PRIVATE_KEY ?? ""],
+        },
+        scroll: {
+            url: process.env.SCROLL_MAINNET_RPC_URL,
+            chainId: 534352,
+            accounts: [process.env.SCROLL_MAINNET_PRIVATE_KEY ?? ""],
         },
     },
     etherscan: {
