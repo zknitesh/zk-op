@@ -8,6 +8,8 @@ A DAPP that collects poll responses with end to end security and anonymity.
 
 [ZK-OP Front end code](https://github.com/zknitesh/zk-op-fe).
 
+NOTION DOC - https://www.notion.so/ZK-OP-ed47244b7c444de888ccd71afcd9ad6a
+
 ## Initial setup
 
 1.  Initialize current project with npm
