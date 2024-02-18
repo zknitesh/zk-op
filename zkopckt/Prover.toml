@@ -1,0 +1,4 @@
+userAadharNumber = "1"
+userSecret = "2"
+systemSecret = "42"
+userHashes = ["1", "0x28e02d3d16a9dca7f1d3a280f01f6055d9bed65ede76c0400316b1a7f9878a70"]
