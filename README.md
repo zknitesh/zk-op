@@ -6,7 +6,7 @@ A DAPP that collects poll responses with end to end security and anonymity.
 
 # ZK-OP Front end Code
 
-[ZK-OP Front end code](https://github.com/).
+[ZK-OP Front end code](https://github.com/zknitesh/zk-op-fe).
 
 ## Initial setup
 
